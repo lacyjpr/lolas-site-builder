@@ -8,12 +8,9 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">LOLa's Sitebulder</h1>
         </header>
-        <p className="App-intro">
-          I want a new computer. VS code is laggy for some reason. Is it laggy
-          now?
-        </p>
+        <p className="App-intro">Grandma got run over by a reindeer...</p>
       </div>
     );
   }
