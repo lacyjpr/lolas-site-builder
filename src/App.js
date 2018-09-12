@@ -11,7 +11,8 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          I want a new computer. VS code is laggy for some reason.
+          I want a new computer. VS code is laggy for some reason. Is it laggy
+          now?
         </p>
       </div>
     );
