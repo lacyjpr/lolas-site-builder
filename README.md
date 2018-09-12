@@ -4,6 +4,24 @@ Lola: Filippino for "Grandma"
 
 Simple WYSIWYG site builder your Grandmother could use!
 
+My mom uses iOs with a keyboard. It's enough for content development. She doesn't know the beauty of HTML/CSS. Never going to. Amazing design eye though. I'll stick a link to her stuff when it's up.
+
+Untested on any phablet, don't have one. I'll get a coworker to try it.
+
+## Inspiration
+
+Lola obvi...
+
+Mom.
+
+Dad.
+
+The Dogs.
+
+webflow.com (chokes on 2015 8gb MBP unfortunately. Need to try iOS & Safari.)
+
+## Default CRA Doc I plan to read one day
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
