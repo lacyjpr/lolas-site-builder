@@ -1,4 +1,5 @@
 ## Lola's Site Builder
+[![Build Status](https://travis-ci.org/lacyjpr/lolas-site-builder.svg?branch=master)](https://travis-ci.org/lacyjpr/lolas-site-builder)
 
 Lola: Filippino for "Grandma"
 
