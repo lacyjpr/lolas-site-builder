@@ -11,7 +11,7 @@ deploy:
       all_branches: true
       master: false
   - provider: script
-    script: now
+    script: now --token $NOW_TOKEN
     skip_cleanup: true
     on:
       master: true
