@@ -1,24 +1,4 @@
 language: node_js
-node_js: lts/*
+node_js: 'lts/*'
 dist: trusty
 sudo: required
-
-cache:
-  directories:
-    - 'node_modules'
-
-deploy:
-  - provider: script
-    script: now -p --token $NOW_TOKEN
-    skip_cleanup: true
-    on:
-      all_branches: true
-      master: false
-  - provider: script
-    script: now -p --token $NOW_TOKEN && now alias --token $NOW_TOKEN
-    skip_cleanup: true
-    on:
-      master: true
-env:
-  global:
-    - secure: HU2jKvXNPoSaxFpc3xAJ6q9YjTTwElRESgWGYe08fzeUp0I6Z7E2iO1NlrZgKxQANZF7JnvYPC1QZYnYFTSUuuMFpzNr6ub7roeRihhI0fts+h/xQeIDVU0ZWoTYQwn/54TrumyAYYCxZMAMJYrz7WMBRBph1ir+L1mk4ekMHjX0wf3a5hvVbM6PckAlhZTOxGYNxpKSk++MtRJXz3KJkVCjT8kUiUrUlQtuES2fTR8q2zcmVTYNZj3XhGdMHVdNWhb5i/azXWxOp9lZYAFkeWwZ6idzHQgTmVJWwu8+VJaTe2q83uclpQAveJoxVbd8fC5ohtZbKVEPQcrqbA+zgzorv7UxFb+vxn8TXjm+Z5sKy9I/E4WUmO+vLcr6XcFGOsD0AMx8XmBAHxyV+gLJP6eIeCtzauXqUzwnyP+QZvBLkAT3s1bQ66e8sE2u7SjIYp43V7oTdf7SCX5V6EdrB4j0QtwWmijB/M4BVAm/JbBXeuOmk5KgdJUOZlmJgJ17z4ITvZ5Hosk9A960EYw1IiQYJln2rht1iaZu0dgeE1+8w/JGq8MA/TjkKZSsbMtRa/poZcr546+sAnfd4EAurP781q9pl8PJoBvo12kjgMv5+1rD5nJAmNz83Vf6WjI2pxJ4emqKT85stzdotB1ycgOrN3xPpjJJxXo+yzFWCPE=
