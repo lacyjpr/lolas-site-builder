@@ -5,7 +5,7 @@ Lola: Filippino for "Grandma"
 
 Simple WYSIWYG site builder your Grandmother could use!
 
-My mom uses iOs with a keyboard. It ought to be enough for content development. She doesn't know the beauty of HTML/CSS. Never going to. Amazing design eye though. I'll stick a link to her stuff when it's up.
+My mom uses iOs with a keyboard. It should be enough for content development. She doesn't know the beauty of HTML/CSS. Never going to. Amazing design eye though. I'll stick a link to her stuff when it's up.
 
 Untested on any phablet, don't have one. I'll get a coworker to try it.
 
