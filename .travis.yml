@@ -3,17 +3,17 @@ node_js: lts/*
 dist: trusty
 sudo: required
 deploy:
-- provider: script
-  script: now --token $NOW_TOKEN
-  skip_cleanup: true
-  on:
-    all_branches: true
-    master: false
-- provider: script
-  script: now --token $NOW_TOKEN
-  skip_cleanup: true
-  on:
-    master: true
+  - provider: script
+    script: now --token $NOW_TOKEN
+    skip_cleanup: true
+    on:
+      all_branches: true
+      master: false
+  - provider: script
+    script: now --token $NOW_TOKEN
+    skip_cleanup: true
+    on:
+      master: true
 env:
   global:
-    secure: CQ/kf73p+xj6nzkwxro3KJpO+J8pEEX2q9M7q0GUte83P2wUyDUhaAeBNll5qIpMRa1yJ43RkeAHX2UB2TnnslMZSXCXEH1nqDSLv0yq2afsyBGCcQKlQUuTmQbCtVu66UQWEXuBnFCdxMFF4AU9GwEDxmT/uU37fl7JLC0zmWoz470/JmYk8zMKt9lpFsNz5sXga9ODdqZKqIDnZJ8NjOa2obIu9HHDw63myJ4HU7RLR9SS4cnNlasnmuIaC4LcKlnduT62QO5saATUaskqO4IrXPs0BGZ2hQGXiwDEa8NYiYABQcm/azjX5mdXZfBkJ4jdBzG8N65MAOFUafpHjtvJ5UMyhJcQpaRFKpNnxuTiQ5Vw+bXCqz8FEGFlPX0aFK56h3xxA2fYQdGlS7kfx5qJ152ZHr24y55/bayGUTSrApZ7qP1Slm0b4Kx0NP8Z9YDglC3X1KBdvWh0e9tmKOz9YaMwI5F9SUhc+HxiNzSy5GX4vB1JEyjT1o8SOsT6aoa31NuPF1GCKNKiL+SYL7PVxkOshloKplxItcym4qmsIoLJobEUovjJnsmqCEIJ/kt21064uXOu8iIAtmOoaUODhu9dWQjdKLcLSKj/03F78cembHCln7URi/KC0bO3+FQAjhKKThFzh1K/ZJ0rt7BlyGr2w7zmWhTQU09r8hM=
+    - secure: HU2jKvXNPoSaxFpc3xAJ6q9YjTTwElRESgWGYe08fzeUp0I6Z7E2iO1NlrZgKxQANZF7JnvYPC1QZYnYFTSUuuMFpzNr6ub7roeRihhI0fts+h/xQeIDVU0ZWoTYQwn/54TrumyAYYCxZMAMJYrz7WMBRBph1ir+L1mk4ekMHjX0wf3a5hvVbM6PckAlhZTOxGYNxpKSk++MtRJXz3KJkVCjT8kUiUrUlQtuES2fTR8q2zcmVTYNZj3XhGdMHVdNWhb5i/azXWxOp9lZYAFkeWwZ6idzHQgTmVJWwu8+VJaTe2q83uclpQAveJoxVbd8fC5ohtZbKVEPQcrqbA+zgzorv7UxFb+vxn8TXjm+Z5sKy9I/E4WUmO+vLcr6XcFGOsD0AMx8XmBAHxyV+gLJP6eIeCtzauXqUzwnyP+QZvBLkAT3s1bQ66e8sE2u7SjIYp43V7oTdf7SCX5V6EdrB4j0QtwWmijB/M4BVAm/JbBXeuOmk5KgdJUOZlmJgJ17z4ITvZ5Hosk9A960EYw1IiQYJln2rht1iaZu0dgeE1+8w/JGq8MA/TjkKZSsbMtRa/poZcr546+sAnfd4EAurP781q9pl8PJoBvo12kjgMv5+1rD5nJAmNz83Vf6WjI2pxJ4emqKT85stzdotB1ycgOrN3xPpjJJxXo+yzFWCPE=
