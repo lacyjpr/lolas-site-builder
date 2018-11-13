@@ -1,1 +1,6 @@
-{ "alias": "lolas-site-builder" }
+{
+  "alias": "lolas-site-builder",
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
