@@ -9,13 +9,13 @@ cache:
 
 deploy:
   - provider: script
-    script: now --public -t $NOW_TOKEN && now alias -t $NOW_TOKEN && now rm lolas-site-builder --safe --yes -t $NOW_TOKEN
+    script: now rm lolas-site-builder --safe --yes -t $NOW_TOKEN && now --public -t $NOW_TOKEN && now alias -t $NOW_TOKEN
     skip_cleanup: true
     on:
       all_branches: true
       master: false
   - provider: script
-    script: now --public -t $NOW_TOKEN && now alias -t $NOW_TOKEN && now rm lolas-site-builder --safe --yes -t $NOW_TOKEN
+    script: now rm lolas-site-builder --safe --yes -t $NOW_TOKEN && now --public -t $NOW_TOKEN && now alias -t $NOW_TOKEN
     skip_cleanup: true
     on:
       master: true
