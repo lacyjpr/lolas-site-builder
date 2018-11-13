@@ -14,10 +14,4 @@ deploy:
     script: now rm lolas-site-builder --safe --yes -t $NOW_TOKEN && now -p -t $NOW_TOKEN && now alias -t $NOW_TOKEN
     skip_cleanup: true
     on:
-      all_branches: true
-      master: false
-  - provider: script
-    script: now rm lolas-site-builder --safe --yes -t $NOW_TOKEN && now -p -t $NOW_TOKEN && now alias -t $NOW_TOKEN
-    skip_cleanup: true
-    on:
       master: true
