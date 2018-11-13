@@ -2,3 +2,10 @@ language: node_js
 node_js: 'lts/*'
 dist: trusty
 sudo: required
+
+deploy:
+  provider: script
+  script: now -p -t $NOW_TOKEN && now alias -t $NOW_TOKEN && now rm personal-website --safe --yes -t $NOW_TOKEN
+  skip_cleanup: true
+  on:
+    master: true
