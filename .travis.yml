@@ -1,4 +1,23 @@
 language: node_js
-node_js: 'lts/*'
+node_js: -"node"
 dist: trusty
 sudo: required
+
+cache:
+  directories:
+    - 'node_modules'
+
+before_deploy: npm install now --no-save
+
+deploy:
+  - provider: script
+    script: now rm lolas-site-builder --safe --yes -t $NOW_TOKEN && now -p -t $NOW_TOKEN && now alias -t $NOW_TOKEN
+    skip_cleanup: true
+    on:
+      all_branches: true
+      master: false
+  - provider: script
+    script: now rm lolas-site-builder --safe --yes -t $NOW_TOKEN && now -p -t $NOW_TOKEN && now alias -t $NOW_TOKEN
+    skip_cleanup: true
+    on:
+      master: true
