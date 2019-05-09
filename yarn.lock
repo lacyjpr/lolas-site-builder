@@ -7914,40 +7914,47 @@ slash@^2.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-2.0.0.tgz#de552851a1759df3a8f206535442f5ec4ddeab44"
   integrity sha512-ZYKh3Wh2z1PpEXWr0MpSBZ0V6mZHAQfYevttO11c51CaWjGTaadiKZ+wVt1PbMlDV5qhMFslpZCemhwOK7C89A==
 
-slate-base64-serializer@^0.2.91:
-  version "0.2.91"
-  resolved "https://registry.yarnpkg.com/slate-base64-serializer/-/slate-base64-serializer-0.2.91.tgz#d66fe202288dedc6cf0189f20c36fce695d54580"
+slate-base64-serializer@^0.2.103:
+  version "0.2.103"
+  resolved "https://registry.yarnpkg.com/slate-base64-serializer/-/slate-base64-serializer-0.2.103.tgz#cd9743110f8c244bba66db4208b7529ee5ff7584"
+  integrity sha512-dZBu5kXHFjzOJ+vO1hE4Nq+LD1blMKwNKFvh4tiRrGRPMr03CdxgZT23rXh8IfZsCuXZRphAhAVSJsKAf/mxYA==
   dependencies:
     isomorphic-base64 "^1.0.2"
 
-slate-dev-environment@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/slate-dev-environment/-/slate-dev-environment-0.2.0.tgz#c43f4a5e13cccc16ad4c3015c8ad182b6e5b5b3a"
+slate-dev-environment@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/slate-dev-environment/-/slate-dev-environment-0.2.2.tgz#bd8946e1fe4cf5447060c84a362a1d026ed8b77f"
+  integrity sha512-JZ09llrRQu6JUsLJCUlGC0lB1r1qIAabAkSd454iyYBq6lDuY//Bypi3Jo8yzIfzZ4+mRLdQvl9e8MbeM9l48Q==
   dependencies:
     is-in-browser "^1.1.3"
 
-slate-hotkeys@^0.2.7:
-  version "0.2.7"
-  resolved "https://registry.yarnpkg.com/slate-hotkeys/-/slate-hotkeys-0.2.7.tgz#a5b613ced4af931b2d74a206f985ee2c63f3b0f9"
+slate-hotkeys@^0.2.9:
+  version "0.2.9"
+  resolved "https://registry.yarnpkg.com/slate-hotkeys/-/slate-hotkeys-0.2.9.tgz#0cc9eb750a49ab9ef11601305b7c82b5402348e3"
+  integrity sha512-y+C/s5vJEmBxo8fIqHmUcdViGwALL/A6Qow3sNG1OHYD5SI11tC2gfYtGbPh+2q0H7O4lufffCmFsP5bMaDHqA==
   dependencies:
     is-hotkey "0.1.4"
-    slate-dev-environment "^0.2.0"
+    slate-dev-environment "^0.2.2"
 
-slate-plain-serializer@^0.6.30:
-  version "0.6.30"
-  resolved "https://registry.yarnpkg.com/slate-plain-serializer/-/slate-plain-serializer-0.6.30.tgz#2a18aac879988eacf7ef370d735c1aff2d70131b"
+slate-plain-serializer@^0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/slate-plain-serializer/-/slate-plain-serializer-0.7.2.tgz#8f10d7214f938adeb29978ef7d4eba3c74414132"
+  integrity sha512-FJebeAi7bMEVBOaMFj6HogDPXaCQqG2SfrkeU6PYgzPNyT5K69afHRNZYt7M78FfYpRLDVctBhl9kpXABmYJAQ==
 
-slate-prop-types@^0.5.21:
-  version "0.5.21"
-  resolved "https://registry.yarnpkg.com/slate-prop-types/-/slate-prop-types-0.5.21.tgz#996e0b2a219d7c7da0e127f6d31b2fb19b688ae7"
+slate-prop-types@^0.5.33:
+  version "0.5.33"
+  resolved "https://registry.yarnpkg.com/slate-prop-types/-/slate-prop-types-0.5.33.tgz#238ae05ac7e7179ea4d2a0bb5a51a0db8db3a0fe"
+  integrity sha512-HaRfdKV37TvHDWCQ6ClHJ0rLcqa7kv5ab7JbN1baCjZroBUDgjpPQANTMZwC4nISArN6emmRTNnhVqSgKZSoLg==
 
-slate-react-placeholder@^0.1.9:
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/slate-react-placeholder/-/slate-react-placeholder-0.1.9.tgz#683aaa4542c91b55552c51e4649d76ca778e14fb"
+slate-react-placeholder@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/slate-react-placeholder/-/slate-react-placeholder-0.2.0.tgz#f232bca3356814a11fdec8d5545fdcfbac973770"
+  integrity sha512-UaypeOwF5MPYTzdVOF2JI6sdjNQX0IKLeAxI35F4FN44ecmLHhNpNlGOS0gb1mkhPp83NIPgQ/5T/lKyTnAIVw==
 
-slate-react@^0.21.12:
-  version "0.21.12"
-  resolved "https://registry.yarnpkg.com/slate-react/-/slate-react-0.21.12.tgz#e3bee253324167ebb5185a6587c5450558575c23"
+slate-react@^0.22.0:
+  version "0.22.0"
+  resolved "https://registry.yarnpkg.com/slate-react/-/slate-react-0.22.0.tgz#0580a9649ba08778c1f5e043049619a089278503"
+  integrity sha512-Z9elbP+kiDfYSfTU7RPj3TgCDTNtMEPF/WvuezPzuYSkknmpsgKbuw14Wyl7SDuWrReNaa9gFc1N5lIN5uZU1g==
   dependencies:
     debug "^3.1.0"
     get-window "^1.1.1"
@@ -7957,12 +7964,12 @@ slate-react@^0.21.12:
     prop-types "^15.5.8"
     react-immutable-proptypes "^2.1.0"
     selection-is-backward "^1.0.0"
-    slate-base64-serializer "^0.2.91"
-    slate-dev-environment "^0.2.0"
-    slate-hotkeys "^0.2.7"
-    slate-plain-serializer "^0.6.30"
-    slate-prop-types "^0.5.21"
-    slate-react-placeholder "^0.1.9"
+    slate-base64-serializer "^0.2.103"
+    slate-dev-environment "^0.2.2"
+    slate-hotkeys "^0.2.9"
+    slate-plain-serializer "^0.7.2"
+    slate-prop-types "^0.5.33"
+    slate-react-placeholder "^0.2.0"
     tiny-invariant "^1.0.1"
     tiny-warning "^0.0.3"
 
