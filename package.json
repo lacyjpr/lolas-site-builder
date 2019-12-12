@@ -8,7 +8,7 @@
     "react-dom": "^16.6.1",
     "react-scripts": "2.1.4",
     "slate": "^0.44.6",
-    "slate-react": "^0.21.12"
+    "slate-react": "^0.54.1"
   },
   "scripts": {
     "start": "react-scripts start",
